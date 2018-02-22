@@ -24,6 +24,11 @@ public class DemoTest {
 	}
 	
 	@Test
+	public void println() {
+		System.out.println("PRINT TEST");
+	}
+	
+	@Test
 	public void mul() {
 		System.out.println("mul");
 		int a = 10;
